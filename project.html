@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <div class="menubar">
+            <div class="menubar_first">
+                <h1>Blogger Express</h1>
+            </div>
+            <div class="menubar_second">
+                <div class="right_menu">
+                    <div class="home"><button>home</button></div>
+                    <div class="category"><button>category</button></div>
+                    <div class="AbousUS"><a href="#target"><button>Aboutus</button></a></div>
+                </div>
+                <div class="left_menu">
+                    <div class="login"><button>login</button></div>
+                    <div class="SignUp"><button>SignUp</button></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_content">
+            <div class="content">
+                <div class="first_content">
+                    <h2>So What you Wanna Express Today</h2>
+                </div>
+                <div class="second_content">
+                    <button>Create</button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="blog.jpg" alt="">
+            </div>
+        </div>
+        <div class="readblog">
+            <p style="background-color: pink; padding: 10px; border-radius: 10px; color: white; cursor: pointer;">Wanna Read Recent Blogs??</p>
+        </div>
+        
+        
+    </main>
+
+    <div class="blog">
+        <div class="back_btn">
+            <button style="color:black; height: 40px; width: 40px; margin-bottom: 50px; border-radius: 10px; font-size: 24px; background-color: white;">&larr;</button>
+        </div>
+        <!-- <div class="card">
+            <div class="nameanddate">
+                <div class="user_name">abhi</div>
+                <div class="blog_date">3</div>
+            </div>
+            <div class="blog_content">The latest updates on the football league have fans excited. Here's everything you need to know about the upcoming matches.</div>
+            <div class="categoryandtime">
+                <div class="blog_category">Sports</div>
+                <div class="time">3:00</div>
+            </div>
+        </div> -->
+    </div>
+    <footer>
+        <div class="aboutus" id="target">
+            <h1>About Us</h1>
+            <p>
+                Welcome to The Idea Haven!
+                
+                We are a team of curious minds, passionate writers, and idea enthusiasts who believe in the power of stories and knowledge to inspire change. Our blog is a vibrant space where thoughts, creativity, and ideas come together to inform, entertain, and connect.
+                
+                At The Idea Haven, we cover a diverse range of topics, including technology, lifestyle, self-improvement, travel adventures, and more. Whether you’re here to explore the latest trends, dive into thought-provoking discussions, or find practical tips for everyday life, we’ve got something for everyone.
+                
+                Our mission is simple: to spark curiosity, encourage learning, and create a community of like-minded readers who value fresh perspectives and meaningful conversations.
+                
+                Thank you for being a part of our journey! Together, let’s share ideas, grow, and make the world a little brighter—one blog post at a time.</p>
+        </div>
+        <div class="rights"><p>All right reserved</p></div>
+    </footer>
+
+    <div class="form">
+        <div id="cross"><button>X</button></div>
+            <h1>Create Your blog</h1>
+            <form action="">
+                <div class="first">
+                    <div class="name">
+                        <input type="text" placeholder="Enter Your Name" name="user_Name" id="name"  >
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your email" name="user_email" id="user_email" >
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="title">
+                        <input type="text" placeholder="Enter the titel of blog" name="titel_blog" id="titel_blog" required>
+                    </div>
+                    <div class="second_category">
+                        <input type="text" placeholder="Enter category" name="blog_category" id="category" required>
+                    </div>
+                </div>
+                <!-- <textarea  id="content" name="content" placeholder="Write your blog" required></textarea> -->
+                 <div class="stylingbutton">
+                    <button id="bold" type="button">B</button>
+                    <button id="italic" type="button">I</button>
+                    <button id="underline" type="button">U</button>
+                    <button id="Left_Align" type="button">&larr;</button>
+                    <button id="Center_Align" type="button">&#8596</button>
+                    <button id="Right_Align" type="button">&rarr;</button>
+                 </div>
+                <!-- <div class="write" id="content">
+                    <pre contenteditable="true"></pre>
+                </div> -->
+                <p contenteditable="true" class="write" id="content">Write Your Content</p>
+                <div class="submit">
+                    <button type="submit">submit</button>
+                </div>
+                <div class="reset">
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
+
+        
+
+    <script src="project.js"></script>
+</body>
+</html>
